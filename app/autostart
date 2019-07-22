@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Initial Start"
+cd /home/pi/CityClub
+echo "Reload"
+while true
+	do
+	 sudo python3 /home/pi/CityClub/CityClub.py
+	 sleep 1
+	done
